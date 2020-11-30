@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [testmeapp_Suite]">
+  <test name="Testme_app(failed)">
+    <parameter name="sUsername" value="lalitha"/>
+    <parameter name="sPassword" value="password123"/>
+    <classes>
+      <class name="testng_practice_1_aug_2018.TestngParameters">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng_practice_1_aug_2018.TestngParameters -->
+    </classes>
+  </test> <!-- Testme_app(failed) -->
+</suite> <!-- Failed suite [testmeapp_Suite] -->

@@ -1,0 +1,10 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" parallel="methods" >
+<test name="pravin_training">
+<classes>
+<class name="testng_practice_1_aug_2018.Google_multiple_parallel_session">
+</class>
+</classes>
+</test>
+</suite>

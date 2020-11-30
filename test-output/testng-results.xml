@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12943" started-at="2020-11-30T04:14:42Z" finished-at="2020-11-30T04:14:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12943" started-at="2020-11-30T04:14:42Z" finished-at="2020-11-30T04:14:55Z">
+      <class name="com.seleniumdemo19.HTMLUnitDemo1">
+        <test-method status="PASS" signature="headlessbrowser()[pri:0, instance:com.seleniumdemo19.HTMLUnitDemo1@725bef66]" name="headlessbrowser" duration-ms="12930" started-at="2020-11-30T09:44:42Z" finished-at="2020-11-30T09:44:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headlessbrowser -->
+      </class> <!-- com.seleniumdemo19.HTMLUnitDemo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

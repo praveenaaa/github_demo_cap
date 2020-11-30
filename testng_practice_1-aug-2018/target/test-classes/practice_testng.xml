@@ -1,0 +1,26 @@
+<suite name="Suite">
+ 
+    <test name="Practice Grouping">
+ 
+        <groups>
+ 
+	    <run>
+ 
+		<include name="Car" />
+	
+    
+     <!--  here how to comment in  	<include name="Scooter" /> -->
+	    </run>
+ 
+	</groups>
+ 
+	<classes>
+ 
+	    <class name="testng_practice_1_aug_2018.Grouping" />
+	 <!--  comment section    <class name="testng_practice_1_aug_2018.TestngParameters" /> -->
+ 
+	</classes>
+ 
+    </test>
+ 
+</suite>

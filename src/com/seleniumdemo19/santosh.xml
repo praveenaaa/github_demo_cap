@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite_pravin">
+
+   <test name="Practice Grouping by priya">
+
+      <groups>
+
+         <define name="All_18_NOV_2020">
+
+	   		 
+
+	   		<include name="Scooter"/>
+            <include name="Car"/>
+		 </define>
+
+	 	<run>
+
+	   		 <include name="All_18_NOV_2020"/>
+
+		</run>
+
+   	 </groups>
+
+	 <classes>
+
+	      <class name="com.seleniumdemo19.Grouping" />
+
+	</classes>
+
+   </test>
+
+</suite>

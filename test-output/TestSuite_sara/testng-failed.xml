@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [TestSuite_sara]" parallel="tests">
+  <parameter name="browser" value="Edge"/>
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.seleniumdemo19.Hello_selenium">
+        <methods>
+          <include name="find_flights"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.seleniumdemo19.Hello_selenium -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="EdgeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.seleniumdemo19.Hello_selenium">
+        <methods>
+          <include name="find_flights"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.seleniumdemo19.Hello_selenium -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite_sara] -->

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testmeapp_Suite">
+
+    <test name="Testme_app">
+
+	<parameter name="sUsername" value="lalitha"/>
+
+	<parameter name="sPassword" value="password123"/>
+	
+		<classes>
+
+		    <class name="testng_practice_1_aug_2018.TestngParameters" />
+
+		</classes>
+
+    </test>
+
+</suite>
