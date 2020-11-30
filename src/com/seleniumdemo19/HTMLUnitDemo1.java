@@ -27,11 +27,12 @@ public class HTMLUnitDemo1 {
 		//options.addArguments("--headless");
 		System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
 			 	driver=new ChromeDriver(options);*/
-			
+			System.out.println("browser launched ");
 			FirefoxOptions options1=new FirefoxOptions();
 			options1.setHeadless(true);
 			System.setProperty("webdriver.gecko.driver","C:\\driver\\geckodriver.exe");
 			 driver = new FirefoxDriver(options1);
+	 
 				// open google.com webpage
 				driver.get("http://google.com");
 		 
